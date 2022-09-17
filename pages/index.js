@@ -9,7 +9,74 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm <b>Archie</b>. I'm a 4th year Computer Enginnering student from University of the Assumption. My hobbies anything related to computer literate. Also my favorite food is Asado and anything about myself is personality. You can contact me on <Link href="https://www.facebook.com/archie.galivo.75/">Facebook.</Link></p>
+<p><b>Contact Information:</b></p>
+
+      <p><Link href="https://www.facebook.com/archie.galivo.75/">Facebook Page</Link></p>
+
+      <p><b>Description:</b></p>
+
+      <p>To acquire knowledge and experiences of the real working field and to utilized the skills I learned.  </p>
+
+      <p><b>Skills:</b></p>
+
+      <li>Knowledgeable in C++, Python, and JavaScript programming languages.</li>
+      <li>Oriented in HTML5, PHP, CSS and MySQL database.</li>
+      <li>Capable of editing videos. </li>
+
+      <p><b>Educational Attainment:</b></p>
+      <div>
+        <p style={{textAlign: "left"}}><b>Tertiary</b></p>
+        <p style={{textAlign: "center"}}>
+        Bachelor of Science in Computer Engineering (Degree)
+        </p>
+        <p style={{textAlign: "center"}}>
+        University of the Assumption Unisite Subdivision,
+        </p>
+        <p style={{textAlign: "center"}}>
+        Barangay Del Pilar, City of San Fernando Pampanga
+        </p>
+        <p style={{textAlign: "center"}}>
+        2019-present
+        </p>
+      </div>
+
+      <div>
+        <p style={{textAlign: "left"}}><b>Secondary</b></p>
+        <p style={{textAlign: "center"}}>
+        University of the Assumption Unisite Subdivision, 
+        </p>
+        <p style={{textAlign: "center"}}>
+        Barangay Del Pilar, City of San Fernando Pampanga
+        </p>
+        <p style={{textAlign: "center"}}>
+        2017-2019 (Senior High School)
+        </p><br></br>
+        <p style={{textAlign: "center"}}>
+        University of the Assumption Unisite Subdivision,
+        </p>
+        <p style={{textAlign: "center"}}>
+        Barangay Del Pilar, City of San Fernando Pampanga
+        </p>
+        <p style={{textAlign: "center"}}>
+        2013-2017 (Junior High School)
+        </p>
+      </div>
+
+        <div>
+        <p style={{textAlign: "left"}}><b>Primary</b></p>
+        <p style={{textAlign: "center"}}>
+        University of the Assumption Unisite Subdivision,
+        </p>
+        <p style={{textAlign: "center"}}>
+        Barangay Del Pilar, City of San Fernando Pampanga
+        </p>
+        <p style={{textAlign: "center"}}>
+        2006-2013
+        </p>
+      </div>
+
+
+
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
